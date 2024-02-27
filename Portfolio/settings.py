@@ -120,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = '/opt/render/project/src/static'
+STATIC_ROOT = BASE_DIR  / 'staticfiles'
 
 MEDIA_URL = 'media/'
 
