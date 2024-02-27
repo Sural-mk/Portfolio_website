@@ -4,8 +4,7 @@ from django.urls import reverse
 # Create your models here.
 
 def work_directory_path(instance, filename):
-    print(instance.id)
-    return 'work/work_{0}/{1}'.format(instance.id, filename)
+    return 'work/{0}'.format(filename)
 
 class Work(models.Model):
     work_title = models.CharField(max_length=200)
