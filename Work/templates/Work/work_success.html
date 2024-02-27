@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+  <h4 style= " color: black; font-weight: bolder; font-size: 40px; color: black;">{{ work.work_title }}</h4>
+
+<p style=" color: black; font-size: 20px; line-height: 30px;">{{ work.work_description }}</p> 
+<p>{{ work.work_year }}</p>
+<a href="" style="color: rgb(57, 57, 236);">see project</a>
+<br><br>
+<a href="{{ work.work_github_url }}" style="text-decoration: none;  padding: 10px; background: rgb(32, 14, 201); color: white; font-weight: bolder;"><i class="ri-github-fill" style="margin-right: 5px;"></i>Github</a>
+<a href="{{ work.work_github_url }}" style="text-decoration: none; padding: 10px; background: rgb(32, 14, 201); color: white; font-weight: bolder;"><i class="ri-links-line" style="margin-right: 5px;"></i>Live</a>
+<br>
+<p style=" color: black; font-size: 18px; line-height: 25px;">Checkout my <a href="" style="color: rgb(57, 57, 236);">website</a> to read other Projects in <br> </p>
+<ul style=" gap: 15px; ">
+  <li style=" color: black; display: inline-block; font-size: 20px; line-height: 30px;">Technology</li> <br>
+  <li style=" color: black; display: inline-block; font-size: 20px; line-height: 30px;">Python Programming Language</li>  <br>
+  <li style=" color: black; display: inline-block; font-size: 20px; line-height: 30px;">Django Web Frameowrk</li>  <br>
+  <li style="  color: black; display: inline-block; font-size: 20px; line-height: 30px;">Web Development in React</li>  <br>
+  <li style=" color: black; display: inline-block; font-size: 20px; line-height: 30px;">Mobile App development in React Native</li>  <br>
+</ul>
+
+<hr>
+</body>
+</html>
