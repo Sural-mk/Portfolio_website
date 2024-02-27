@@ -5,4 +5,4 @@ set -o errexit
 pip install -r requirements.txt
 python manage.py makemigrations 
 python manage.py migrate
-python manage.py createsuperuser --username Suralmkoracle1313 --password oracle1313##
+python manage.py createsuperuser
