@@ -137,7 +137,7 @@
 
       $(document).on("submit", "#subscription_form", function (e) {
         e.preventDefault();
-        var options;
+        
         if (validateSubscription() === true) {
           $.ajax({
             type: "POST",
