@@ -1,0 +1,118 @@
+.workspage_container {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.workspage_wrapper {
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 120px;
+}
+
+.workpage-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(65, 63, 63, 0.425);
+}
+@media screen and (max-width:1200px) {
+    .workspage_wrapper {
+        padding: 50px 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .workspage_wrapper{
+        padding: 50px 40px;
+    }
+}
+@media screen and (max-width:800px) {
+    .workpage-container {
+        flex-direction: column;
+        padding: 15px  ;
+        align-items: start;
+        gap: 20px;
+    }
+    .work-container_picture {
+        width: 100%;
+        height: 270px;
+    }
+}
+@media screen and (max-width:600px) {
+    .workspage_wrapper {
+        padding: 50px 20px;
+    }
+    .workpage-container {
+        padding: 0px  ;
+    }
+}
+/* Work Detail page styles */
+.workdetail_container {
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+.workdetail_wrapper {
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 120px;
+    background: white;
+}
+.workdetail-container_picture{
+    width: 100%;
+    height: auto;
+}
+.workdetail-container_picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.workdetail-container_description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.workdetail-problems, 
+.workdetail-tech,
+.workdetail-presentaion,
+.workdetail-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+@media screen and (max-width:1200px) {
+    .workdetail_wrapper {
+        padding: 50px 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .workdetail_wrapper{
+        padding: 50px 40px;
+    }
+}
+@media screen and (max-width:800px) {
+
+    .work-container_picture {
+        width: 100%;
+        height: 270px;
+    }
+}
+@media screen and (max-width:600px) {
+    .workdetail_wrapper{
+        padding: 50px 20px;
+    }
+}
